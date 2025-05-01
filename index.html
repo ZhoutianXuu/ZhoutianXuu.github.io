@@ -216,7 +216,7 @@
                     </div>
                 </div>
                 <div class="contact-form">
-                    <form id="contactForm" action="https://formspree.io/f/xwpovjej" method="POST">
+                    <form action="https://formspree.io/f/xwpovjej" method="POST">
                         <div class="form-group">
                             <input type="text" id="name" name="name" placeholder="Your Name" required>
                         </div>
@@ -229,8 +229,10 @@
                         <div class="form-group">
                             <textarea id="message" name="message" placeholder="Your Message" required></textarea>
                         </div>
-                        <!-- Optional honeypot field to prevent spam -->
+                        <!-- Optional fields for Formspree -->
                         <input type="text" name="_gotcha" style="display:none">
+                        <input type="hidden" name="_subject" value="New message from portfolio website">
+                        <input type="hidden" name="_next" value="https://zhoutianxuu.github.io/thank-you.html">
                         <button type="submit" class="btn primary-btn">Send Message</button>
                     </form>
                 </div>
