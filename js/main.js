@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // }
     // Add this to your main.js file (replace the current contact form code)
 
-// Handle form submission with Formspree
+    // Handle form submission with Formspree
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
